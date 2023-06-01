@@ -80,3 +80,23 @@ body {
     display: flex;
     align-self: flex-end;
 }
+
+@media (max-width: 320px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        padding-right: 30px;
+    }
+    .container-1,
+    .container-2,
+    .container-3 {
+        width: 100%;
+        height: auto;
+        margin: 20px;
+    }
+    
+    .container-1 img,
+    .container-2 img {
+        width: 100%;
+    }
+}
